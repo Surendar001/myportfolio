@@ -1,0 +1,36 @@
+.experience {
+    padding: 20px;
+    text-align: justify;
+    min-height: calc(100vh - 120px); /* Ensures enough space before footer */
+  }
+  
+  .job {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h3 {
+    color: #0073e6;
+  }
+  
+  h4 {
+    font-weight: normal;
+    color: #555;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
