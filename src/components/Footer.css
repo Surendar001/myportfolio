@@ -8,7 +8,7 @@
     width: 100%;
   } 
   
-  // Ensure all pages allow room for the footer
+  
   .home, .experience, .education, .projects, .skills, .certifications, .contact {
     min-height: calc(100vh - 60px); /* Adjusting height to prevent footer overlap */
     padding-bottom: 80px; /* Gives space above footer */

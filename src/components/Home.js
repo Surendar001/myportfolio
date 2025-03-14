@@ -1,10 +1,13 @@
 import React from "react";
 import "./Home.css";
+import profilePic from "../assets/profile.jpg"; // Ensure you have this image in the assets folder
+import resume from "../assets/resume.pdf"; // Ensure your resume PDF is in the assets folder
 
 const Home = () => {
   return (
     <div className="home">
       <div className="hero-section">
+        <img src={profilePic} alt="Surendar Mourougan" className="profile-pic" />
         <h1>Hi, I'm Surendar Mourougan</h1>
         <p>
           A passionate Software Engineer and Master's student in Computer Science at the
@@ -12,6 +15,7 @@ const Home = () => {
           and cloud computing.
         </p>
         <a href="/projects" className="cta-button">View My Work</a>
+        <a href={resume} download className="cta-button download-button">Download Resume</a>
       </div>
       
       <div className="about-me">
